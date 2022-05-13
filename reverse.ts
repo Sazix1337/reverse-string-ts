@@ -1,4 +1,6 @@
-function reverseString(stringValue: string): string {
+type ReverseString = string
+
+function reverseString(stringValue: string): ReverseString {
     const reverseArray: Array<string> = []
     for (let i = 0; i < stringValue.length; i++) {
         reverseArray.unshift(stringValue[i])
@@ -7,3 +9,4 @@ function reverseString(stringValue: string): string {
 }
 
 export default reverseString
+export type ReverseString
