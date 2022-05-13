@@ -1,4 +1,4 @@
-function reverseString(stringValue: string) {
+function reverseString(stringValue: string): string {
     const reverseArray: Array<string> = []
     for (let i = 0; i < stringValue.length; i++) {
         reverseArray.unshift(stringValue[i])
